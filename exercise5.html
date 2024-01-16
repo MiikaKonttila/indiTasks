@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5 - Miika Konttila</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        header, footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+        }
+
+        .articles {
+            flex: 12;
+        }
+
+        .sidebar {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 200px;
+            width: 50px;
+
+        }
+
+        article {
+            background-color: #c3c7c8;
+        }
+        footer{
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+            background-color: black;
+            color: white;
+        }        
+    </style>
+
+    <header> <h1>Flex Box Examples</h1></header>
+    <main>
+
+    <aside class="sidebar">
+            <div>Item 1</div>
+            <div>Item 2</div>
+            <div>Item 3</div>
+    </aside>
+
+
+    <section class="articles"> 
+        <article><h2>The main content is here</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae dolorum odio eligendi debitis maxime voluptatem voluptatum sed distinctio officia aut nisi amet architecto reiciendis aperiam laborum, voluptates nam rem.</article>
+        
+        <article><h2>The main content is here</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. A animi debitis itaque reiciendis tempore, eos excepturi in? Impedit quibusdam eligendi rem animi illo quo ut consequuntur provident necessitatibus? Fuga, deleniti.</article>
+        
+        <article><h2>The main content is here</h2> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, ab deserunt? Quia quisquam repellendus molestiae velit a architecto, aperiam eveniet, nesciunt sequi earum enim amet explicabo reprehenderit dolorum reiciendis pariatur!</article>
+    </section>
+        
+</main>
+    
+    <footer>
+       <h2> Learning Flex @2024 </h2>
+
+    </footer>
+    
+</body>
+</html>
