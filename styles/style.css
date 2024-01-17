@@ -22,17 +22,17 @@ nav ul{
     margin: 0;
 
 }
-.top-menu li{
+.navbar-nav li{
     display: inline-block;
     margin-right: 20px;
 
 }
-.top-menu a{
+.navbar-nav a{
     text-decoration: none;
-    color: rgb(219, 16, 16);
+    color: white;
     font-weight: bold;
 }
-.top-menu a:hover{
+.navbar-nav a:hover{
     color:red;
 
 }
@@ -90,4 +90,9 @@ img{
     color: #666;
     font-size: 16px;
     line-height: 1.5;
+}
+input[type=text]{
+    padding:12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
